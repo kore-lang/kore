@@ -1,0 +1,8 @@
+*.asm
+*.obj
+/libraries/*
+!/libraries/Kore
+!/libraries/Windows
+/projects/*
+/projects/*/*.exe
+!/projects/sample
