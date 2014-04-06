@@ -9,9 +9,13 @@ This repository contains a ready-to-use architecture for software development us
 - libraries includes and binaries (Kore Library and Windows)
 - a configured HelloWorld sample
 
+How to compile a project ?
+--------------------------
 
-How to use the compiler ?
--------------------------
+The projects/sample folder contains a make.bat file which is configured to compile any program put in projects/*. Juste duplicate it and execute it. If you want to put your sources in another folder, you should be able to update make.bat with minor changes, or call the compiler manually (see below). 
+
+Compiler arguments
+------------------
 
 The compiler must be called from a command line with some arguments to compile a program. 
 Example : compiler.exe /project:C:\kore\projects\sample /platform:windows /libpath:C:\kore\libraries
