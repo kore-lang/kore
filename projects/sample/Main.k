@@ -2,6 +2,6 @@ using Kore
 
 module Sample
 	def main
-		"Hello world".print
+		"Hello World".print
 	end
 end
